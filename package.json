@@ -1,0 +1,22 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "This repo has solutions to the AOC 2022 split by day.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/applicity/advent-of-code-2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/applicity/advent-of-code-2022/issues"
+  },
+  "homepage": "https://github.com/applicity/advent-of-code-2022#readme",
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}
