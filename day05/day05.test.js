@@ -2,7 +2,7 @@ const { getFile } = require('../utils');
 
 const { day05, buildStack } = require('./day05');
 
-// Fead the files
+// Read the files
 const example = getFile('./day05/example');
 const input = getFile('./day05/input');
 
