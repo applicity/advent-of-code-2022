@@ -2,7 +2,7 @@ const { getFile } = require('../utils');
 
 const { day06, isUnique } = require('./day06');
 
-// Fead the files
+// Read the files
 const input = getFile('./day06/input');
 
 describe('Day 6', () => {
@@ -35,7 +35,7 @@ describe('Day 6', () => {
     expect(day06(input[0])).toBe(1238);
   });
 
-  test('Part 1', () => {
+  test('Part 2', () => {
     expect(day06(input[0], true)).toBe(3037);
   });
 });
