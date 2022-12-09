@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "coverage": "jest --coverage=true --coverageProvider=v8",
     "lint": "eslint ."
   },
   "repository": {

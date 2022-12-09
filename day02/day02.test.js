@@ -1,5 +1,5 @@
 const { getFile } = require('../utils');
-const engine = require('./day02');
+const { engine, chooseResult } = require('./day02');
 
 const exampleStrategy = `A Y
 B X
@@ -11,6 +11,12 @@ test('Example', () => {
 
 test('Example 2', () => {
   expect(engine(exampleStrategy, true)).toBe(12);
+});
+
+test('Choose result', () => {
+  expect(chooseResult(['A', 'X'])).toStrictEqual(['A', 'C']);
+  expect(chooseResult(['A', 'Y'])).toStrictEqual(['A', 'A']);
+  expect(chooseResult(['A', 'Z'])).toStrictEqual(['A', 'B']);
 });
 
 test('Part 1', () => {

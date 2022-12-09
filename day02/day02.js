@@ -76,7 +76,7 @@ const chooseResult = (a) => {
   return false;
 };
 
-const rps = (input, p2) => {
+const engine = (input, p2) => {
   const res = input
     .map((v) => v.split(' '))
     .map(p2 ? chooseResult : fixChoices)
@@ -85,4 +85,4 @@ const rps = (input, p2) => {
   return res;
 };
 
-module.exports = rps;
+module.exports = { engine, chooseResult };
